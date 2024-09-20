@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@4
       - name: setup-node
         uses: actions/setup-node@v3
-        witeh:
+        with:
           node-version: 18
       - name: Cache Node.js modules
         uses: actions/cache@v3
